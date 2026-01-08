@@ -29,6 +29,12 @@ This project uses an **Arduino Nano** and **HC-05 Bluetooth Module** controlled 
 * Physical Push Button (for backup code)
 * Piezo Buzzer (for "Find My Bike" feature)
 
+## Wiring 
+<img width="1208" height="910" alt="image" src="https://github.com/user-attachments/assets/b60c6840-b8d0-4471-bfdf-6747c21edce9" />
+
+
+<img width="797" height="580" alt="image" src="https://github.com/user-attachments/assets/93600ab5-fe1e-4ecc-9f2d-60650625e6cc" />
+
 ## 📂 File Structure
 * `/Arduino`: Contains the `Activa_Smart_System.ino` code (Bug-fixed version with `BT.setTimeout`).
 * `/App`: Contains the MIT App Inventor project (`.aia`) and installable (`.apk`).
