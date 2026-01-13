@@ -1,0 +1,68 @@
+Hello I Want To Build A KeyLess Entry System For My Activa With Very Cool Features Help Me To Craft The Software Part Of My PRoject Hardware Already There
+I Need Your Help In 3 Phases
+-Nano Code
+-HTML Web App
+-MIT App Steup 
+
+#Connections Info For Pin
+const bool USING_RELAYS = true; // Set false if using MOSFETs
+
+// --- PIN DEFINITIONS ---
+const int PIN_BUTTON    = 2;  
+const int PIN_IGNITION  = 3;  
+const int PIN_STARTER   = 4;  
+const int PIN_LED       = 5;  
+const int PIN_BT_STATE  = 6;  
+const int PIN_HORN      = 7;  
+const int PIN_INDICATOR = 8;  
+const int PIN_RX        = 10; 
+const int PIN_TX        = 11; 
+const int PIN_BT_PWR    = 12; 
+
+#List Of All Features With Working 
+-Welcome Animations:
+-When The BT Gets Connected We Will Flash PIN_INDICATOR  Not Just Random Flashes It Will Last 4s And With 3 Flashes And The Flashes Must Be Like A Expensive Cars Animtions They Must BE Berating And Pulse Like Welcoming With Pleasure Fully Flashship Experience 
+-The Exit Animtion It Should Be Similar To Welcome But Small Only 2s And 3 Flashes Same Depth Must Be There Are AIM Is To Get Maxium Look And Feel And Functionilty
+-Okay NOW I Am Giveing Engine Start Logic Can Be Performed Via 4 Ways Will Give Details
+Step1:Starting PIN_IGNITION  (Created Key On Single) 
+Step2:Flash PIN_INDICATOR 2 Times Faster Indagating Starting Is Going On  Flash On FOr 1s Turn Of Them (Its For Waiting Time Of 1s For Current To Flow Before Starting Engine) 
+Step3:PIN_STARTER  Start It FOr 3s Creating Start Button Press Indagating Then Turn Off Note PIN_IGNITION   Must Remain Of In Order To Keep Engine Running It Will Only Turn Off If Stop Action Is Performed Given Bellow In Details
+-This Start Action Is Perfome By 
+-A Mobile HTML App Via THe Input (UI Related Details Will Be Shared)
+-A Button Long Press 1s This Also Perform Same Action (Note Phone Must Be Connected Or This Button Is Dead)
+-A BUtton Double Tap Without Dealy Or With of 1s Also Works (Button Single Tap Used Will Be Shared) Same Button IS Dead If No Phone 
+-A Special Button Passward If Phone Not There EG:Tap Press Tap Tap Press 
+
+(Note All Oprations Must Be In Sync Always If Engine Started Via Button Then APp Must Be Updated Or If Started Via App Then Button Should Behave In Same Way It Do When Started Via Button Sync Is Very Very Important)
+#Engine Stop Action 
+-This Can Also Be Done in 2 Ways
+-Button PRess Or Button Press Or Tap Same Action
+-Flash PIN_INDICATOR  Once Then Wait 1s And Turn Off The PIN_IGNITION  This Prevent Back Currents
+#Anti Theft Protection 
+if Engine Is Running And Phone Disconnected Then A 5mins Warring Systme Kicks In Using PIN_INDICATOR   And  PIN_HORN       In A Tone Not Random As Its Disturbing We Are Here To AMke Exprecences 
+#App Features
+-Find My Activa:
+It Flashes PIN_INDICATOR  In Rethum And Pulses For 1min Followed By 2 PIN_HORN   In Bettweeen
+-Lock:
+It Sleeps The BT Module By Cutting Off The Power And Puts Nano Too In DeepSleep More Stuff Will Get To
+#Anti Battry Drain:
+After 20mins The Nano Puts In Deep Sleep And Cutoff The Power From BT Module 
+-This Prevents Battry Loss Now How To Get Back In Actions??
+Simple Just By Press Button It Scanes And Connect Within 1s And We Are Readyyy
+
+IMportnat Note This Connection Should Happen In Background Means We Need To StepUP MIT Very Noiclly
+
+#HTML Web App Details I Have 
+-JUst Updating Scipt Part Will Make It Working It Have A Broken Logic But I Want You To Remake Full Logic
+
+-App Update Just Change Color To Red Themeing Add Strips And Vents To Left And Right Of Empty Area To Get Sports Felling 
+-Bellow Activa Add Connection Status Floating Text With Rounded Edge Floating Box With Have A BT Logo With Color Chnaging When Connected And Status In Left 
+-Adding New Animtions When Clicking Find Or Start 
+
+Notee:boot.mp3 Before Anything Loads So That It Sync With The Logo Zoom Animtions
+
+start.mp3 When Start Is Clicked 
+
+Step1: I Want You To Get ALl Needed Details Suggest If Anything More Can Be Added O Any Permium Touch Can Be Added 
+
+-Think For Each And EVeryThink Imaging Your Using What All Problems Can You Face Etc Etc Then Makes List Then I Pick When Make Nano Code First 
